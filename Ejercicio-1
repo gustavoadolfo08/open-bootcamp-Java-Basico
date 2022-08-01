@@ -1,0 +1,32 @@
+public class Main {
+    public static void main(String[] args) {
+
+
+                // 1.1 enteros
+                byte variable1 = 8;
+                short variable2 = 60;
+                int variable3 = 40;
+                long variable4 = 500;
+
+                // 1.2 decimales
+                float variable5 = 1.2f;
+                double variable6 = 10.5d;
+
+                // 2. booleano
+                boolean variable7 = true;
+                boolean variable8 = false;
+
+                // 3. texto
+                char variable9 = 'g';
+                String variable10 = "Esto es Todo";
+
+
+        System.out.println("Detro de los tipos de datos tenemos, Los enteros: \n" + "byte: " + variable1+", "
+                + "" +"short: " + variable2+", "+ "int: " + variable3+", "+ "long: " + variable4+"." +"\n" +
+                "Los Datos decimales: \n" + "float: " + variable5+", "+ "" +"double: " + variable6+"."+"\n" +
+                "Los booleanos que solo pueden tomar dos valores: \n" + variable7+" o "+ variable8+"." +"\n"+
+                "Y por ultimo Los Datos Texto: \n" + "char: " + variable9+" y "+ "" +"String: que realmente es una clase, "
+                + variable10+".");
+
+    }
+}
